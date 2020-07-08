@@ -4,6 +4,7 @@ node {
   }
 
   stage('run make') {
+    sh 'which make'
     sh 'make compile'
   }
 }
